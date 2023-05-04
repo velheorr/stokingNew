@@ -24,8 +24,3 @@
 
 Приложение запуститься в браузере по адресу
 http://localhost:3000
-
-## Heroku
-Приложение так же развернуто на Heroku\
-Для просмотра - перейдите по ссылке\
-https://appspacexlaunches.herokuapp.com/
