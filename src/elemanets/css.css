@@ -1,0 +1,306 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+.header .brand {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #3A3A3A;
+  padding-right: 20px;
+}
+.header .search {
+  flex: 1;
+  padding: 0 12px;
+}
+.header .list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.header .list a {
+  color: #9C9C9C;
+}
+.header .list a:hover {
+  color: #ED7117;
+}
+.header .list a .phone {
+  display: flex;
+}
+
+.headerMob {
+  padding: 0 15px;
+}
+.headerMob .mobMenu {
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.headerMob .mobMenu .brand {
+  flex-basis: 80%;
+  flex-shrink: 1;
+  text-align: center;
+  padding-top: 10px;
+}
+.headerMob .mobMenu .brand span {
+  font-size: 50px;
+  color: #3A3A3A;
+}
+.headerMob .mobSearch {
+  margin: 15px;
+}
+
+.subHeader {
+  margin-top: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+.subHeader .coop {
+  color: #9C9C9C;
+}
+.subHeader .lang span {
+  padding-right: 20px;
+}
+.subHeader .lang .langImg {
+  width: 24px;
+  height: 16px;
+}
+
+.main, .mainMob {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 16px;
+}
+.main .title, .mainMob .title {
+  font-size: 26px;
+}
+.main .img, .mainMob .img {
+  margin-top: 50px;
+}
+.main .circles, .mainMob .circles {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.main .circles div, .mainMob .circles div {
+  flex: 0 1 25%;
+}
+.main .circles div .step, .mainMob .circles div .step {
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+  background-color: #FEDEC7;
+  border-radius: 50px;
+  display: flex;
+  color: #ED7117;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  border: 4px solid #ED7117;
+}
+.main .circles div .line, .mainMob .circles div .line {
+  width: 120px;
+  border-bottom: 2px dashed #ED7117;
+  height: 30px;
+}
+.main .circles div .data, .mainMob .circles div .data {
+  padding-top: 15px;
+}
+.main .circles div .data span, .mainMob .circles div .data span {
+  font-weight: 600;
+}
+.main .circles .dash, .mainMob .circles .dash, .main .circles .rDash, .mainMob .circles .rDash, .main .circles .lDash, .mainMob .circles .lDash {
+  position: absolute;
+  width: 20%;
+  margin: 33px 0px 0px;
+  border-color: #ED7117;
+  border-top-style: dashed;
+}
+.main .circles .lDash, .mainMob .circles .lDash {
+  left: 25%;
+}
+.main .circles .rDash, .mainMob .circles .rDash {
+  right: 25%;
+}
+
+.mainMob {
+  font-size: 22px;
+  padding: 0 15px;
+}
+.mainMob .title {
+  font-size: 35px;
+}
+.mainMob svg {
+  margin-top: 40px;
+}
+.mainMob .titleMob {
+  margin-top: 50px;
+}
+.mainMob .circles {
+  display: block;
+}
+
+.about, .aboutMob {
+  margin-top: 70px;
+  background-color: #F8F8F8;
+  display: flex;
+}
+.about .text, .aboutMob .text {
+  padding: 40px 70px;
+}
+.about img, .aboutMob img {
+  margin: -35px 0 -65px;
+}
+
+.aboutMob {
+  font-size: 22px;
+  padding: 0 15px;
+}
+
+.listBlock, .listBlockMob2, .listBlockMob1 {
+  margin: 70px 0;
+  display: flex;
+}
+.listBlock > div, .listBlockMob2 > div, .listBlockMob1 > div {
+  flex: 0 1 47%;
+}
+.listBlock .text, .listBlockMob2 .text, .listBlockMob1 .text {
+  padding-left: 50px;
+  padding-top: 140px;
+}
+.listBlock .text svg, .listBlockMob2 .text svg, .listBlockMob1 .text svg {
+  margin-bottom: -75px;
+}
+.listBlock .data, .listBlockMob2 .data, .listBlockMob1 .data {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -5px;
+  height: 500px;
+  /* overflow: hidden;*/
+  overflow: scroll;
+}
+.listBlock .data .brandBlock, .listBlockMob2 .data .brandBlock, .listBlockMob1 .data .brandBlock {
+  flex: 0 0 26%;
+  height: 120px;
+  margin: 25px;
+}
+.listBlock .data .brandBlock img, .listBlockMob2 .data .brandBlock img, .listBlockMob1 .data .brandBlock img {
+  padding: 16px;
+  object-fit: scale-down;
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(77, 77, 77, 0.15);
+  width: 100%;
+}
+.listBlock .data .brandBlur, .listBlockMob2 .data .brandBlur, .listBlockMob1 .data .brandBlur, .listBlock .data .brandBlur2, .listBlockMob2 .data .brandBlur2, .listBlockMob1 .data .brandBlur2, .listBlock .data .brandBlur1, .listBlockMob2 .data .brandBlur1, .listBlockMob1 .data .brandBlur1 {
+  background: #FFFFFF;
+  opacity: 0.85;
+  filter: blur(2px);
+}
+.listBlock .data .brandBlur1, .listBlockMob2 .data .brandBlur1, .listBlockMob1 .data .brandBlur1 {
+  margin-bottom: -100px;
+  width: 100%;
+}
+.listBlock .data .brandBlur2, .listBlockMob2 .data .brandBlur2, .listBlockMob1 .data .brandBlur2 {
+  margin-top: 440px;
+  height: 100px;
+  position: absolute;
+  width: 45%;
+}
+.listBlock .goods, .listBlockMob2 .goods, .listBlockMob1 .goods {
+  padding-top: 48px;
+  display: flex;
+}
+.listBlock .goods .goodsBlock, .listBlockMob2 .goods .goodsBlock, .listBlockMob1 .goods .goodsBlock {
+  width: 180px;
+  height: 250px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(77, 77, 77, 0.15);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: -100px;
+  background-color: #fff;
+}
+.listBlock .goods .goodsBlock .goodsName, .listBlockMob2 .goods .goodsBlock .goodsName, .listBlockMob1 .goods .goodsBlock .goodsName {
+  font-size: 13px;
+}
+.listBlock .goods .goodsBlock img, .listBlockMob2 .goods .goodsBlock img, .listBlockMob1 .goods .goodsBlock img {
+  object-fit: scale-down;
+  height: 80px;
+  width: 100%;
+}
+.listBlock .goods .goodsBlock .goodsArt, .listBlockMob2 .goods .goodsBlock .goodsArt, .listBlockMob1 .goods .goodsBlock .goodsArt {
+  font-size: 12px;
+}
+.listBlock .goods .goodsBlock .goodsArt span:first-child, .listBlockMob2 .goods .goodsBlock .goodsArt span:first-child, .listBlockMob1 .goods .goodsBlock .goodsArt span:first-child {
+  color: #9C9C9C;
+}
+.listBlock .goods .goodsBlock .goodsPrice, .listBlockMob2 .goods .goodsBlock .goodsPrice, .listBlockMob1 .goods .goodsBlock .goodsPrice {
+  color: #ED7117;
+  font-size: 20px;
+}
+
+.listBlockMob1 {
+  display: block;
+  padding: 0 15px;
+}
+.listBlockMob1 .text {
+  padding: 0;
+  text-align: center;
+}
+.listBlockMob1 .text svg {
+  margin-top: -50px;
+}
+
+.listBlockMob2 {
+  display: block;
+  padding: 0 15px;
+}
+.listBlockMob2 .text {
+  padding: 0;
+  text-align: center;
+}
+.listBlockMob2 .text svg {
+  margin-bottom: -20px;
+}
+.listBlockMob2 .goods {
+  padding-top: 10px;
+}
+.listBlockMob2 .goods .goodsBlock {
+  margin-right: -60px;
+}
+
+.footer {
+  margin-top: 100px;
+  padding: 30px;
+}
+.footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0px 30px 25px;
+  font-size: 14px;
+}
+.footer ul a {
+  text-decoration: none;
+  color: #9C9C9C;
+}
+.footer .company {
+  font-size: 12px;
+  text-align: center;
+}
+
+.footerMob {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/*# sourceMappingURL=css.css.map */
